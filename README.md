@@ -1,2 +1,30 @@
-# single_cycle_mips_verilog
-This repository contains implementation of the following instructions for 32-bit Single Cycle MIPS processor in Verilog.
+# Single Cycle MIPS (Verilog)
+This repository contains implementation of the following instructions for 32-bit Single Cycle MIPS processor in Verilog:
+- **R-type** 
+    - add
+    - sub
+    - mult
+    - div
+    - mflo
+    - mfhi
+    - and
+    - or
+    - sll
+    - srl
+    - sra
+    - sllv
+    - srlv
+    - jr
+    - slt
+- **I-type**
+    - lw
+    - sw
+    - addi
+    - andi
+    - ori
+    - slti
+    - beq
+    - lui
+- **J-type**
+    - j
+    - jal
